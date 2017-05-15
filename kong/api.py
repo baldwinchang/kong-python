@@ -4,7 +4,8 @@ class API:
                          'https_only', 'id', 'name', 'preserve_host',
                          'retries', 'strip_uri', 'upstream_connect_timeout',
                          'upstream_read_timeout', 'upstream_send_timeout',
-                         'upstream_url', 'request_path', 'request_host'}
+                         'upstream_url', 'request_path', 'request_host',
+                         'strip_request_path'}
 
     _exclude_difference = {'created_at', 'id'}
 
